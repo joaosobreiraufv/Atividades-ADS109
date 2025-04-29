@@ -5,32 +5,35 @@
 }
 body {
   background-color: rgb(245, 122, 100);
+  padding: 220px;
 }
 header {
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(245, 122, 100);
+  width: 100%;
 }
 .textura {
   height: 150px;
-  margin-left: 10%;
   text-align: center;
 }
 .textura img {
   width: 20%;
   height: 100%;
-  padding: 10px;
+  padding: 5px;
 }
 #textura-meio {
   width: 50%;
 }
 
 .menu {
-  padding: 20px;
   margin: 20px 5px 20px 5px;
 }
 .menu > ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 li {
   list-style: none;
@@ -48,4 +51,10 @@ li a:hover {
 h1 {
   color: black;
   text-align: center;
+}
+@media only screen and(max-width:700px) {
+  body {
+    text-align: left;
+    padding: 0;
+  }
 }
