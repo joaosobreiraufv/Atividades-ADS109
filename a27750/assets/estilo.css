@@ -22,7 +22,6 @@ header {
 .header-title {
   font-family: "Lobster", sans-serif;
   font-size: 15pt;
-  border: 2px solid tomato;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +44,7 @@ li {
 li a {
   color: white;
   text-decoration: none;
-  padding: 14px 16px;
+  padding: 10px 16px;
 }
 li a:hover {
   background-color: #333;

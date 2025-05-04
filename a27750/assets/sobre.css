@@ -5,13 +5,14 @@ main {
 }
 .card {
   max-width: 400px;
-  height: 350px;
+  height: 350px auto;
   background-color: black;
   display: flex;
   border-radius: 15px;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   padding: 20px;
   align-items: center;
+  justify-content: center;
 }
 p {
   text-align: center;
