@@ -1,31 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
 body {
-  background-color: rgb(245, 122, 100);
-  padding: 220px;
+  background-color: #333;
+  padding: 120px 100px;
+  color: white;
 }
 header {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(245, 122, 100);
+  background-color: black;
   width: 100%;
 }
-.textura {
-  height: 150px;
+.header-title {
   text-align: center;
-}
-.textura img {
-  width: 20%;
-  height: 100%;
-  padding: 5px;
-}
-#textura-meio {
-  width: 50%;
+  padding: 10px;
+  font-family: "Lobster", sans-serif;
+  font-size: 15pt;
 }
 
 .menu {
@@ -39,18 +37,29 @@ li {
   list-style: none;
 }
 li a {
-  color: black;
+  color: white;
   text-decoration: none;
   padding: 14px 16px;
 }
 li a:hover {
-  background-color: rgb(224, 224, 42);
+  background-color: #333;
   border-radius: 5px;
 }
 
 h1 {
-  color: black;
+  color: white;
   text-align: center;
+  padding: 10px;
+}
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 10px;
 }
 @media only screen and(max-width:700px) {
   body {

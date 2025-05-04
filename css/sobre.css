@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.card {
+  max-width: 400px;
+  height: 350px;
+  background-color: black;
+  display: flex;
+  border-radius: 15px;
+  flex-flow: column wrap;
+  padding: 20px;
+  align-items: center;
+}
+p {
+  text-align: center;
+}
+.imgjvs {
+  border-radius: 50%;
+  padding-bottom: 10px;
+}
