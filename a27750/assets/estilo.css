@@ -20,10 +20,16 @@ header {
   width: 100%;
 }
 .header-title {
-  text-align: center;
-  padding: 10px;
   font-family: "Lobster", sans-serif;
   font-size: 15pt;
+  border: 2px solid tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.jvs-math {
+  margin-left: 5px;
 }
 
 .menu {

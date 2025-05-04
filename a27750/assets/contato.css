@@ -1,0 +1,17 @@
+.contato ul {
+  text-align: left;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista-contato li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li img {
+  margin-right: 5px;
+}
